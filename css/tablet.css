@@ -1,6 +1,8 @@
 @media screen and (orientation:portrait) and (min-width: 641px) and (max-width: 1199px) {
     body {
-        margin: 0 auto;
+        margin: 0;
+        padding: 0;
+
     }
 
     header {
@@ -63,6 +65,8 @@
     .features_carts {
         display: flex;
         width: 95%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .features_cart {
@@ -70,6 +74,25 @@
         margin-right: auto;
         margin-left: auto;
         padding: 0;
+    }
+
+    .features_cart:nth-child(odd) {
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .features_cart_image {
+        width: 50%;
+        margin: 0;
+    }
+
+    .features_cart_image img {
+        background-size: auto;
+        margin: auto 0;
+    }
+
+    .features_cart3 .features_cart_image {
+        width: 42%;
     }
 
     .testimonials {
