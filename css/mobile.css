@@ -1,14 +1,17 @@
 @media (min-width: 320px) and (max-width: 640px) {
     body {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .container {
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
+        width: 100%;
+    }
+
+    .header_content {
+        max-width: 100%;
     }
 
     .top_panel {
@@ -54,8 +57,7 @@
     }
 
     .headline_text {
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%
     }
 
     .headline_button {
@@ -97,6 +99,14 @@
         flex-direction: column;
     }
 
+    .features_title {
+        font-size: 2rem;
+    }
+
+    .features_subtitle {
+        font-size: 1rem;
+    }
+
     .features_carts {
         flex-direction: column;
     }
@@ -105,27 +115,37 @@
         width: 100%;
     }
 
+    .features_cart_image {
+        width: 40%;
+    }
+
+    .features_cart_image img {
+        width: 100%;
+    }
+
     .features_cart_article {
         width: 50%;
         padding-right: 0;
     }
 
-    .features_cart_image {
-        width: 48%;
+    .features_cart_title {
+        font-size: 1rem;
     }
+
+
 
     .testimonials {
         width: 90%;
-        padding-left: 40px;
     }
 
     .testimonials_title {
-        padding-left: 40px;
+        padding-left: 20px;
     }
 
     .testimonials_container {
-        width: 80%;
-        left: 40px;
+        width: 85%;
+        top: 200px;
+        left: 20px;
     }
 
     .testimonials_list_item_content {
@@ -134,15 +154,27 @@
     }
 
     .testimonials_list_item_photo {
-        width: 30%;
+        width: 25%;
         padding: 5px;
         margin: 0;
     }
 
+    .testimonials_list_item_photo img {
+        width: 100%;
+    }
+
     .testimonials_list_item_article {
-        width: 70%;
+        width: 75%;
         padding: 0;
         margin: 0;
+    }
+
+    .testimonials_list_item_article_text2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
     }
 
     .testimonials_list_item:not(:first-child) {
