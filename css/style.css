@@ -151,6 +151,8 @@ ul {
 .menu_list_item a {
     padding-left: 20px;
     padding-right: 20px;
+/*TODO: Нужно указывать generic-family, для Ubuntu - это sans-serif, так:
+       font-family: Ubuntu-B, sans-serif; */
     font-family: Ubuntu-B;
     font-style: normal;
     font-weight: 500;
@@ -413,6 +415,7 @@ ul {
     border-radius: 20px;
     height: 330px;
     width: 400px;
+/*TODO: не нужно указывать единицы измерения нулевым значениям 0px -> 0*/
     box-shadow: 0px 20px 0px rgba(123, 83, 179, 0.1);
 }
 
