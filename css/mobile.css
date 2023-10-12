@@ -2,6 +2,7 @@
     body {
         padding: 0;
         margin: 0;
+        width: 100vw;
     }
 
     .container {
@@ -11,7 +12,7 @@
     }
 
     .header_content {
-        max-width: 100%;
+        width: 100%;
     }
 
     .top_panel {
@@ -200,3 +201,4 @@
     .footer_right_title {
         text-align: center;
     }
+}
