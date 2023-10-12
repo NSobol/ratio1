@@ -1,8 +1,8 @@
-@media screen and (orientation: portrait) and (min-width: 641px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
   body {
     margin: 0;
-    padding: 0;
-    width: 100vw;
+    padding: 10px;
+    width: 100%;
   }
 
   header {
@@ -112,10 +112,11 @@
   }
 }
 
-@media (orientation: landscape) and (min-width: 641px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   body {
     margin: 0 auto;
-    width: 100vw;
+    padding: 10px;
+    width: 100%;
   }
 
   header {
@@ -161,13 +162,13 @@
     width: 100%;
   }
 
-  .testimonials {
+  /* .testimonials {
     width: 100%;
   }
 
   .testimonials_container {
     width: 100%;
-  }
+  } */
 
   .testimonials_list_item:not(:first-child) {
     display: none;
