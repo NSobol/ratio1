@@ -698,7 +698,7 @@ ul {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media (min-width: 1270px) {
+@media (min-width: 1249px) {
     body {
         margin-right: auto;
         margin-left: auto;
