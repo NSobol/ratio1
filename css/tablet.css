@@ -112,7 +112,7 @@
     }
 }
 
-@media screen and (orientation:landscape) {
+@media (orientation:landscape) and (min-width: 641px) and (max-width: 1199px){
     body {
         margin: 0 auto;
     }
